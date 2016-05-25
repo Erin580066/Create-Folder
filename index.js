@@ -9,4 +9,12 @@ window.onload = function(){
 //		hideContextmenu();
 //	}
 	document.onclick = hideContextmenu;
+//	setTimeout(function(){
+//		datas.contextmenu.commen.push({
+//			name:'aaa',
+//			exe:function(){
+//				alert('aaaa')
+//			}
+//		})
+//	},5000)
 }
