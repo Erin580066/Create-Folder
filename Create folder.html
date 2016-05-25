@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			#contextmenu{
+				min-width:100px;
+				position:fixed;
+				border:1px solid #d58512;
+				background:rgba(255,153,0,.3);
+				list-style:none;
+			}
+			#contextmenu li{
+				padding:5px;
+				cursor: pointer;
+			}
+			#contextmenu li:hover{
+				background:#fff;
+			}
+		</style>
+		<script src="data.js"></script>
+		<script src="tool.js"></script>
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<ul id="contextmenu"></ul>
+	</body>
+</html>
